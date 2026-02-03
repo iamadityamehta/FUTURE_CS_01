@@ -28,3 +28,20 @@ Cyber Security is the practice of protecting systems, networks, and data from di
 
 ## Conclusion
 This task helped in building a foundational understanding of Cyber Security concepts which will be applied in upcoming practical tasks.
+
+
+## Target Application
+The selected target for this task is OWASP Juice Shop, a deliberately insecure web application developed by OWASP for security training and awareness purposes.
+
+**URL:** https://pwning.owasp-juice.shop  
+**Authorization:** Publicly available and explicitly allowed for security testing  
+**Purpose:** Demonstrates common web application security vulnerabilities
+
+## Scope of Assessment
+The assessment was limited strictly to:
+- Passive analysis
+- Observation of security headers
+- Publicly accessible application behavior
+
+No exploitation, authentication bypass, or active attacks were performed.
+
