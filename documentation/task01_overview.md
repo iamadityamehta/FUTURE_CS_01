@@ -45,3 +45,18 @@ The assessment was limited strictly to:
 
 No exploitation, authentication bypass, or active attacks were performed.
 
+## Security Header Analysis
+
+During analysis of HTTP response headers, it was observed that some recommended security headers were missing or not properly configured.
+
+### Findings
+- Content-Security-Policy header was missing
+- X-Frame-Options header was not enforced
+
+### Impact
+Missing security headers may increase the risk of:
+- Cross-site scripting (XSS)
+- Clickjacking attacks
+
+### Recommendation
+It is recommended to implement standard HTTP security headers such as Content-Security-Policy and X-Frame-Options to reduce exposure to common client-side attacks.
