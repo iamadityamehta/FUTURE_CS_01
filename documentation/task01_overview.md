@@ -29,7 +29,6 @@ Cyber Security is the practice of protecting systems, networks, and data from di
 ## Conclusion
 This task helped in building a foundational understanding of Cyber Security concepts which will be applied in upcoming practical tasks.
 
-
 ## Target Application
 The selected target for this task is OWASP Juice Shop, a deliberately insecure web application developed by OWASP for security training and awareness purposes.
 
@@ -60,3 +59,22 @@ Missing security headers may increase the risk of:
 
 ### Recommendation
 It is recommended to implement standard HTTP security headers such as Content-Security-Policy and X-Frame-Options to reduce exposure to common client-side attacks.
+
+## Passive Vulnerability Scan (OWASP ZAP)
+
+A passive vulnerability scan was conducted using OWASP ZAP against the OWASP Juice Shop application.
+
+### Tool Used
+- OWASP ZAP (Passive Scan)
+
+### Observations
+The passive scan identified several low to medium risk security issues, including:
+- Missing Anti-clickjacking Header
+- Content Security Policy not set
+- Information disclosure through response headers
+
+### Impact
+While these issues do not immediately compromise the application, they may assist attackers in exploiting client-side vulnerabilities.
+
+### Recommendation
+It is recommended to properly configure security headers and minimize unnecessary information disclosure to enhance the security posture of the application.
