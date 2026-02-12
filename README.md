@@ -29,3 +29,10 @@ Screenshots and scan evidence are available in the `screenshots/` directory.
 
 ## ✅ Conclusion
 This task helped in understanding real-world web vulnerabilities and how automated tools like OWASP ZAP assist in identifying security issues.
+
+---
+
+### 👨‍💻 Author
+Aditya Mehta  
+B.E. IT | Cybersecurity Enthusiast  
+
